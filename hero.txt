@@ -1,0 +1,58 @@
+puts 365*24
+puts 60*24*365*10
+puts 365*32*24*60*60
+puts 1034000000/60/60/24/365
+
+puts '苗字は？'
+sname=gets.chomp
+puts'名前は？'
+fname=gets.chomp
+puts 'ありがとう、君の名前は'+sname+fname+'だね！'
+
+puts '苗字は？'
+sname=gets.chomp
+puts'名前は？'
+fname=gets.chomp
+fullname=sname+fname
+puts 'ありがとう、君の名前は'+fullname+'だね！'
+
+puts'怒ったボス'
+puts'何が望みだ？'
+hope=gets.chomp
+puts hope+'だと！？お前は首だ！！'
+
+sho='目次','1章: 数','2章: 文字','3章: 変数'
+page='p.1','p.72','p.118',
+
+lineWidth=70
+puts sho[0].center(lineWidth)
+puts sho[1].ljust(lineWidth/2)+page[0].rjust(lineWidth/2)
+puts sho[2].ljust(lineWidth/2)+page[1].rjust(lineWidth/2)
+puts sho[3].ljust(lineWidth/2)+page[2].rjust(lineWidth/1.9)
+
+command = ''
+
+ while command !='bye'
+
+puts command
+
+ command = gets.chomp
+if command=='bye'
+puts'ok'
+else if
+
+
+ 
+command = gets.chomp
+
+puts'ggg'
+
+ command = gets.chomp
+
+puts'kou'
+
+end
+
+else
+
+puts ('また'+rand(1950).to_s+'来て下さいね!')
